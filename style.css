@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu burger  */
+
+#menue-burger-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#menue-burger-nav div{
+    background-color: white;
+    height: 5px;
+    width: 38px;
+    border-radius: 3px;
+}
+
+.menue-burger-nav-logo{
+    transition: 0.5s;
+}
+
+/* liens de la nav bar */
+#liens-nav-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.lien-nav-btn{
+    transform: translateX(-300px);
+    transition: 0.8s;
+}
+
+#liens-nav-bar a{
+    text-decoration: none;
+    color: white;
+}
